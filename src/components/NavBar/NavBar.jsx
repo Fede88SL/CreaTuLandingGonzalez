@@ -29,19 +29,4 @@ function ColorSchemesExample() {
     );
   }
 
-//const NavBar = () => {
- // return (
- //   <div>
-  //      
-  //      <ul>
-  //              <li>Remeras</li>
-  //              <li>Pantalones</li>
-  //              <li>Buzos y Camperas</li>
-  //          </ul>
-   //         <CartWidget />
-   // </div>
-  //)
-//}//
-//
-//export default NavBar;
 export default ColorSchemesExample;
