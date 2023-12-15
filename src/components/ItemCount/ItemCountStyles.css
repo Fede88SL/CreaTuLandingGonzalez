@@ -1,0 +1,36 @@
+.botonera-contador {
+    display: flex;
+    align-items: center;
+}
+
+
+.botonera-contador button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonera-contador h5 {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    background-color: #3498db;
+    color: rgb(15, 1, 1);
+    cursor: pointer;
+    margin: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0
+}

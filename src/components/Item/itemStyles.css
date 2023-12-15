@@ -1,0 +1,11 @@
+.cards {
+    border: 1px solid #e6e6e6
+}
+
+.boton-detalle {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+   
+}
+

@@ -1,0 +1,11 @@
+.item-detail-container {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.counter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

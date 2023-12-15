@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../assets/img/LogoTiendaOnline.png'
+import { Link } from 'react-router-dom'
 import '../NavBar/NavBarStyles.css'
 
 function ColorSchemesExample() {
@@ -12,11 +13,11 @@ function ColorSchemesExample() {
         
         <Navbar bg="primary" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand href="#home"><img src={Logo} alt="Logo Lorenzo Indumentaria" /></Navbar.Brand>
+            <Navbar.Brand> <Link to={'/'}><img src={Logo} alt="Logo Lorenzo Indumentaria" /></Link></Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link  href="#remeras">Remeras</Nav.Link>
-              <Nav.Link  href="#pantalones">Pantalones</Nav.Link>
-              <Nav.Link  href="#abrigos">Buzos y Camperas</Nav.Link>
+              <Nav.Link> <Link to={'/category/remeras'}>Remeras</Link></Nav.Link>
+              <Nav.Link> <Link to={'/category/pantalones'}>Pantalones</Link></Nav.Link>
+              <Nav.Link> <Link to={'/category/abrigos'}>Buzos y Camperas</Link></Nav.Link>
               
             </Nav>
             <CartWidget style={{textAligne:'right'}} />
